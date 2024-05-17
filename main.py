@@ -1,8 +1,10 @@
+from tkinter import * 
 import tkinter as tk
+from plane import Plane
 print("Hallo Dog-Fight")
 
 
-#a useful comment
+# a useful comment
 
 class DogFight():
     
