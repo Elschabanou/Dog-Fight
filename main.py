@@ -1,5 +1,4 @@
-from tkinter import * 
-import tkinter as tk
+import pygame
 from plane import Plane
 print("Hallo Dog-Fight")
 
@@ -9,11 +8,14 @@ print("Hallo Dog-Fight")
 class DogFight():
     
     def __init__(self):
-        self._root = tk.Tk()
-        self._root.title("Hallo Dog-Fight")
-        self._root.mainloop()
+        pass
 
-
+    def draw(self):
+        pass
+        
+    def run(self):
+        pass
+        
 
 if __name__ == "__main__":
     DogFight()
